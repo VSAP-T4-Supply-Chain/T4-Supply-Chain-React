@@ -1,0 +1,22 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    
+    
+  }
+  .container{
+    background-color:rgb(92, 205, 233);
+    width:500px;
+    text-align:center;
+    
+}
+.birth{
+  padding:100px;
+  padding-top:2px;
+  padding-left:30px;
+  padding-bottom:3px;
+  
+}
+  
