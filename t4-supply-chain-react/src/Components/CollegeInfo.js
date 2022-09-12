@@ -11,7 +11,7 @@ export default function CollegeInfo(){
                     <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">College Info</h3>
                     <hr/>
                     <form class="px-md-2">
-        
+
                     <div class="form-outline mb-4">
                         <input type="text" id="CollegeName" required class="form-control" />
                         <label class="form-label" for="CollegeName">College Name</label>
@@ -99,8 +99,9 @@ export default function CollegeInfo(){
                     </div>
                     
                     
-                    <input type="button" class="previous-btn btn btn-success btn-lg mb-1" value="Previous"/> 
-                    <input type="button" class="continue-btn btn btn-success btn-lg mb-1" value="Continue"/>
+                    <input type="button" class="previous-btn btn btn-success btn-lg mb-1" value="Previous"
+                    onClick={event =>  window.location.href='/'} /> 
+                    <input type="button" class="continue-btn btn btn-success btn-lg mb-1" value="Submit"/>
                     </form>
         
                 </div>

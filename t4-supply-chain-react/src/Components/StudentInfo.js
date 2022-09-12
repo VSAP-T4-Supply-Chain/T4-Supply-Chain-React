@@ -2,19 +2,15 @@ import React from "react";
 import "./StudentInfo.css";
 export default function StudentInfo() {
   return (
-    <div className="container py-5 h-100">
-      <div className="row d-flex justify-content-center align-items-center h-100">
-        <div className="col-lg-10 col-xl-16">
-          <div className="card rounded-10">
-            <div className="card-body p-0 p-md-0">
-              <h3 className="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">
-                Student Info
-              </h3>
-              <form>
-                <div className="container">
-                  <h1> Student Details Form</h1> <br />
-                  <hr />
-                </div>
+    <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-lg-8 col-xl-6">
+                <div class="card rounded-3">
+                <div class="card-body p-4 p-md-5">
+                    <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Student Info</h3>
+                    <hr/>
+                    <form class="px-md-2">
+                
                 <table>
                   <div className="col-md-6 mb-4" />
                   <tr>
@@ -133,20 +129,20 @@ export default function StudentInfo() {
                   <input type="date" id="birthday" name="birthday" /><br/>
                 </div>
                 </tr>
+                <tr>
                 Address 1 :
-                <textarea cols="50"rows="1"placeholder=" Address"value="address"required></textarea>
-                <br />
+                <textarea cols="30"rows="2"placeholder=" Address"value="address"required></textarea>
+                </tr>
+                <tr>
                 Address 2:
-                <textarea cols="50"rows="1"placeholder=" Address" value="address"required></textarea>
-                <br />
-                Address 3:
-                <textarea cols="50"rows="1"placeholder=" Address"value="address"required></textarea>
-                <br />
-                <div className="container">
-                  <div className="center">
-                    <button type="submit" Name="nextbtn"> Next</button>
-                  </div>
-                </div>
+                <textarea cols="30"rows="2"placeholder=" Address" value="address"required></textarea>
+                </tr>
+                <tr>
+                 <br/>
+                <input type="button" align="center" class="continue-btn btn btn-success btn-lg mb-1" value="Continue"
+                onClick={event =>  window.location.href='/CollegeInfo'} />
+
+                </tr>
               </form>
             </div>
           </div>

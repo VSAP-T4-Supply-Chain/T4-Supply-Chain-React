@@ -1,4 +1,4 @@
-.center {
+/* .center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,4 +19,21 @@
   padding-bottom:3px;
   
 }
-  
+   */
+   table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+   .container{
+    background-color: white;
+    width:900px;
+}
+.previous-btn{
+    background-color: black;
+    text-align: left;
+}
+
+.continue-btn{
+    background-color: blue;
+    margin-left: 50px;
+}
