@@ -131,11 +131,11 @@ export default function StudentInfo() {
                 </tr>
                 <tr>
                 Address 1 :
-                <textarea cols="30"rows="2"placeholder=" Address"value="address"required></textarea>
+                <textarea cols="30"rows="2"placeholder=" Address"required></textarea>
                 </tr>
                 <tr>
                 Address 2:
-                <textarea cols="30"rows="2"placeholder=" Address" value="address"required></textarea>
+                <textarea cols="30"rows="2"placeholder=" Address"required></textarea>
                 </tr>
                 <tr>
                  <br/>
