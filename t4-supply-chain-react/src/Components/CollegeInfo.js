@@ -2,6 +2,10 @@ import React from "react"
 import "./CollegeInfo.css"
 
 export default function CollegeInfo(){
+
+    const data=()=>{
+        document.write("<h1>Successfully Submitted</h1>");
+    }
     return(
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
@@ -101,7 +105,7 @@ export default function CollegeInfo(){
                     
                     <input type="button" class="previous-btn btn btn-success btn-lg mb-1" value="Previous"
                     onClick={event =>  window.location.href='/'} /> 
-                    <input type="button" class="continue-btn btn btn-success btn-lg mb-1" value="Submit"/>
+                    <input type="button" class="continue-btn btn btn-success btn-lg mb-1" value="Submit" onClick={data}/>
                     </form>
         
                 </div>
